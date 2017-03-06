@@ -1,0 +1,109 @@
+.content {
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  padding-center: 50px;
+  padding-right: 50px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size:  100px;
+}
+
+.steps {
+  float: left;
+  height: 350px;
+  width: 400px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+
+.right-content {
+  float: left;
+  height: 0px;
+  padding-left: 50px;
+  padding-right: 800px;
+  font-family:'Open Sans', sans-serif;
+}
+
+.left-content {
+  float: center;
+  height: 100px;
+  padding-left: 450px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {font-family: 'Open Sans', sans-serif;
+}
+
+.second-title {
+  text-align: left;
+  padding-left: 50px;
+  font-family: sans-serif;
+  font-size: 85px;
+}
+.lettercolor {
+    color: rgb(210, 48, 183);
+}
+
+.caption {
+  float: right;
+  padding-left: 600px;
+  padding-right: 50px;
+  font-style: italic;
+}
+
+img {
+  width: 400px;
+}
+
+.first-content {
+  padding-left: 50px;
+}
+
+.theweekend {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.inner-image {
+  width: 100%;
+}
+
+.inner-image:hover {
+  width: 200%;
+}
+
+.steps:hover {
+  width: 60%;
+  height: 60%;
+}
+
+.media {
+   width: 100%;
+}
+
+.image_wrapper {
+    margin-bottom: 20px;
+    height:  400px;
+    overflow: hidden;
+}
+
+#myAnimation {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: rgb(210, 48, 183);
+}
+
+.button {
+  font-size: 50px;
+  color: green;
+}
