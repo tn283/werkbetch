@@ -15,8 +15,8 @@
 
 .steps {
   float: left;
-  height: 400px;
-  width: 500px;
+  height: 350px;
+  width: 400px;
   padding-left: 5px;
   padding-bottom: 5px;
   padding-right: 10px;
@@ -78,8 +78,12 @@ img {
 }
 
 .inner-image:hover {
-
   width: 200%;
+}
+
+.steps:hover {
+  width: 60%;
+  height: 60%;
 }
 
 .media {
@@ -90,4 +94,16 @@ img {
     margin-bottom: 20px;
     height:  400px;
     overflow: hidden;
+}
+
+#myAnimation {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: rgb(210, 48, 183);
+}
+
+.button {
+  font-size: 50px;
+  color: green;
 }

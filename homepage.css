@@ -1,0 +1,41 @@
+.homepage{
+  margin-left:75px;
+  margin-right:auto;
+  height:auto;
+  width:auto;
+  background-size:100% auto;
+}
+.work{
+  height:auto;
+  width:1320px;
+  background-size:100% auto;
+}
+.happyhour{
+  height:auto;
+  width:1320px;
+  background-size:100% auto;
+}
+.weekend{
+  height:auto;
+  width:1320px;
+  background-size:100% auto;
+}
+.container-fluid{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+footer{
+    min-width: 100%;
+    background: #000;
+    padding-top: 10px;
+    text-align:center;
+    color:white;
+    font-size:500%;
+}
+/*mobdile friendly*/
+@media all and (max-width: 300px) {
+  .media {
+    width: 100%;
+  }
