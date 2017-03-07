@@ -2,7 +2,7 @@ $(document).ready(function() {
    $('.inner-image').mouseenter(function() {
        $(this).fadeTo('fast',0.45)
      })
-     $('.inner').mouseout(function() {
+     $('.inner-image').mouseout(function() {
          $(this).fadeTo('fast',1)
        })
 });
