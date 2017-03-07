@@ -69,8 +69,14 @@ img {
 
 .theweekend {
     width: 50%;
+    position: relative;
     margin: auto;
     display: block;
+}
+
+#theweekend {
+    display: block;
+    width: auto;
 }
 
 .inner-image {
@@ -100,6 +106,8 @@ img {
   width: 100px;
   height: 100px;
   position: absolute;
+  top: 0px;
+  left: 0px;
   background-color: rgb(210, 48, 183);
 }
 

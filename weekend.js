@@ -2,18 +2,22 @@ $(document).ready(function() {
    $('.inner-image').mouseenter(function() {
        $(this).fadeTo('fast',0.45)
      })
-     $('.inner').mouseout(function() {
+     $('.inner-image').mouseout(function() {
          $(this).fadeTo('fast',1)
        })
+    $("#myAnimation").click(function() {
+      myMove()
+    })
 });
 
 
 function myMove() {
   var elem = document.getElementById("myAnimation");
-  var pos = 100;
+  var thepicture= $("#theweekend")
+  var pos = 0;
   var id = setInterval(frame, 10);
   function frame() {
-    if (pos == 602) {
+    if (pos === 500) {
       clearInterval(id);
     } else {
       pos++;
